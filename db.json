@@ -1,0 +1,11 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "mobileNumber": "1234567890",
+        "password": "hashedpassword"
+      }
+    ]
+  }
+  
