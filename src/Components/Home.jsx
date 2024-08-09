@@ -42,7 +42,6 @@ const Home = () => {
 </div>
 
 
-
       <div id="about" className="bg-white flex flex-col justify-center items-center text-center p-8 pb-0 mt-10 max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold mb-8 text-gray-900">About Agronix</h2>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJfb-Ty5fT9Y38zqIBykPemNDKZVgOcmM9sA&s" alt="About Agronix" className="mb-6 w-full max-w-md h-64 object-cover rounded shadow-md" />

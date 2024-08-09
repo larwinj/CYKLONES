@@ -16,10 +16,9 @@ const App = () => {
 
   return (
     <ImageProvider>
-      <Navbar onViewChange={handleViewChange} /> {/* Pass the handler to Navbar */}
-      {/* Render the components based on the current view */}
+      <Navbar onViewChange={handleViewChange} />
       {view === 'history' && <History />}
-      {view === 'prediction' && <Prediction onViewMore={() => handleViewChange('pages')} />} {/* Trigger view change on View More */}
+      {view === 'prediction' && <Prediction onViewMore={() => handleViewChange('pages')} />}
       {view === 'pages' && <Page />}
       {view === 'home' && <Home />}
       {view === 'login' && <Login   onViewMore={() => handleViewChange('home')} />}
